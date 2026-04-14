@@ -1436,6 +1436,29 @@ entries:
     version: 2.0.0
   vaultwarden:
   - apiVersion: v2
+    appVersion: 1.35.7
+    created: "2026-04-14T07:20:28.141768162Z"
+    description: vaultwarden is an unofficial Bitwarden-compatible server written
+      in Rust
+    digest: d21f0f529c009cd074b9df47da3cf4a55ab439bfb13fa1b84d12cde6ebf85382
+    icon: https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-icon.svg
+    keywords:
+    - Rust
+    - vaultwarden
+    kubeVersion: '>=1.12.0-0'
+    maintainers:
+    - email: manulix3d@manulix3d.de
+      name: manulix3d
+      url: https://charts.manulix3d.de
+    name: vaultwarden
+    sources:
+    - https://github.com/manulix3d/charts/tree/main/charts/vaultwarden
+    - https://github.com/dani-garcia/vaultwarden
+    type: application
+    urls:
+    - https://charts.manulix3d.de/vaultwarden-0.36.5.tgz
+    version: 0.36.5
+  - apiVersion: v2
     appVersion: 1.35.6
     created: "2026-04-13T07:50:49.824617765Z"
     description: vaultwarden is an unofficial Bitwarden-compatible server written
@@ -1802,4 +1825,4 @@ entries:
     urls:
     - https://charts.manulix3d.de/vaultwarden-0.34.4.tgz
     version: 0.34.4
-generated: "2026-04-13T19:00:52.433845772Z"
+generated: "2026-04-14T07:20:28.139168899Z"
