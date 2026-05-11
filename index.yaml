@@ -1251,6 +1251,36 @@ entries:
     version: 2025.12.1
   cloudnative-pg:
   - apiVersion: v2
+    appVersion: 1.29.1
+    created: "2026-05-11T19:26:27.590449228Z"
+    dependencies:
+    - alias: monitoring
+      condition: monitoring.grafanaDashboard.create
+      name: cluster
+      repository: https://cloudnative-pg.github.io/grafana-dashboards
+      version: "0.0"
+    description: CloudNativePG Operator Helm Chart
+    digest: ae636efeb4bc1ab20240cd89cf6950d012d16b886935e6fbefb8b5f6e41e9ed9
+    home: https://cloudnative-pg.io
+    icon: https://raw.githubusercontent.com/cloudnative-pg/artwork/main/cloudnativepg-logo.svg
+    keywords:
+    - operator
+    - controller
+    - postgresql
+    - postgres
+    - database
+    kubeVersion: '>=1.29.0-0'
+    maintainers:
+    - email: p.scorsolini@gmail.com
+      name: phisco
+    name: cloudnative-pg
+    sources:
+    - https://github.com/cloudnative-pg/charts
+    type: application
+    urls:
+    - https://charts.manulix3d.de/cloudnative-pg-0.28.1.tgz
+    version: 0.28.1
+  - apiVersion: v2
     appVersion: 1.29.0
     created: "2026-04-01T18:45:17.276374941Z"
     dependencies:
@@ -1611,6 +1641,31 @@ entries:
     - https://charts.manulix3d.de/homebox-0.3.1.tgz
     version: 0.3.1
   pocket-id:
+  - apiVersion: v2
+    appVersion: v2.7.0
+    created: "2026-05-11T19:26:27.591287486Z"
+    description: 'pocket-id is a simple and easy-to-use OIDC provider that allows
+      users to authenticate with their passkeys to your services. '
+    digest: 83a1d422f034f018959cbbb5bd98f52ac3bae84e99c044812f8c6a067c2a590c
+    home: https://pocket-id.org
+    icon: https://raw.githubusercontent.com/manulix3d/charts/main/charts/icons/pocket-id.png
+    keywords:
+    - idp
+    - oidc
+    - passkeys
+    - sso
+    - pocket-id
+    maintainers:
+    - email: manulix3d@manulix3d.de
+      name: manulix3d
+      url: https://charts.manulix3d.de
+    name: pocket-id
+    sources:
+    - https://github.com/pocket-id/pocket-id
+    type: application
+    urls:
+    - https://charts.manulix3d.de/pocket-id-2.0.9.tgz
+    version: 2.0.9
   - apiVersion: v2
     appVersion: v2.6.2
     created: "2026-04-22T07:22:46.857450155Z"
@@ -2273,4 +2328,4 @@ entries:
     urls:
     - https://charts.manulix3d.de/vaultwarden-0.34.4.tgz
     version: 0.34.4
-generated: "2026-05-04T19:12:02.338538836Z"
+generated: "2026-05-11T19:26:27.584798816Z"
