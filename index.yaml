@@ -1568,6 +1568,36 @@ entries:
   cloudnative-pg:
   - apiVersion: v2
     appVersion: 1.29.1
+    created: "2026-06-10T20:08:42.64269616Z"
+    dependencies:
+    - alias: monitoring
+      condition: monitoring.grafanaDashboard.create
+      name: cluster
+      repository: https://cloudnative-pg.github.io/grafana-dashboards
+      version: "0.0"
+    description: CloudNativePG Operator Helm Chart
+    digest: 5d4fe3c66675c7bfd4fe5d1a9f59d5540af458398ff3af1e9305838554aebb02
+    home: https://cloudnative-pg.io
+    icon: https://raw.githubusercontent.com/cloudnative-pg/artwork/main/cloudnativepg-logo.svg
+    keywords:
+    - operator
+    - controller
+    - postgresql
+    - postgres
+    - database
+    kubeVersion: '>=1.29.0-0'
+    maintainers:
+    - email: p.scorsolini@gmail.com
+      name: phisco
+    name: cloudnative-pg
+    sources:
+    - https://github.com/cloudnative-pg/charts
+    type: application
+    urls:
+    - https://charts.manulix3d.de/cloudnative-pg-0.28.3.tgz
+    version: 0.28.3
+  - apiVersion: v2
+    appVersion: 1.29.1
     created: "2026-05-12T19:27:00.800070787Z"
     dependencies:
     - alias: monitoring
@@ -2699,4 +2729,4 @@ entries:
     urls:
     - https://charts.manulix3d.de/vaultwarden-0.34.4.tgz
     version: 0.34.4
-generated: "2026-05-31T19:00:29.15000155Z"
+generated: "2026-06-10T20:08:42.636277487Z"
